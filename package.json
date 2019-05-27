@@ -1,0 +1,22 @@
+{
+  "name": "my-travel",
+  "version": "1.0.0",
+  "description": "这是一个旅游网站,",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingdong11/my-travel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dingdong11/my-travel/issues"
+  },
+  "homepage": "https://github.com/dingdong11/my-travel#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
