@@ -1,7 +1,7 @@
 const express=require("express");
 const pool=require("../pool.js");
 var router=express.Router();
-// var session;
+var session;
 
 // 功能一: 注册
 router.get("/reg",(req,res)=>{
