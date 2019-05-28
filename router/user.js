@@ -51,11 +51,11 @@ router.get("/getInfo",(req,res)=>{
 	res.send(uname);
 });
 // 功能四: 退出登录
-router.get("/getUname",(req,res)=>{
-	req.session.uname="";
-	var uname=req.session.uname;
-	res.send(uname);
-})
+// router.get("/getUname",(req,res)=>{
+// 	req.session.uname="";
+// 	var uname=req.session.uname;
+// 	res.send(uname);
+// })
 // 通用功能: 判断是否有req.session.uname
 router.get("/hasUname",(req,res)=>{
 	var uname=req.session.uname;
