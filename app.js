@@ -25,7 +25,7 @@ server.use(cors({
    credentials:true 
 }))
 //5:绑定监听端口 3000
-server.listen(3000);
+server.listen(5050);
 // 5.1 指定一个静态的目录
 server.use(express.static("public"));
 server.use(bodyParser.urlencoded({
