@@ -15,7 +15,7 @@ var server = express();
 //4.1,配置session
 server.use(session({
   secret:"128位字符串",//配置秘钥
-  resave:true,//每次请求是否更新数据
+  resave:false,//每次请求是否更新数据
   saveUninitialized:true//保存初始化数据
 }))
 //4.1:配置允许列表3000 允许
